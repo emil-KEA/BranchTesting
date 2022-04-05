@@ -1,6 +1,14 @@
 public abstract class Animal {
     private String name;
 
-    public void makeSound(){
+    public Animal(String name){
+        this.name = name;
     }
+
+    public abstract void makeSound();
+
+    public boolean eat(String foodType){
+        return true;
+    }
+
 }
