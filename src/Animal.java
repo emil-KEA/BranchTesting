@@ -10,5 +10,6 @@ public abstract class Animal {
     public boolean eat(String foodType){
         return true;
     }
+    public abstract void showMood(boolean mood);
 
 }
